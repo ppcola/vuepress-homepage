@@ -1,3 +1,16 @@
+<h1 align="center">个人主页</h1>
+
+- Last Update插件是根据git的提交时间来更新的。
+----
+
+在本机使用npm run dev打包指令后，打开生成的html网页发现css样式丢失，但把生成的文件放到服务器中又能正常显示了，
+
+
+![pic](https://img-blog.csdnimg.cn/21caf546d7c04a4aa080ebc2dbfe5378.png)
+
+
+
+
 <h1 align="center">
   <a href="https://github.com/mtobeiyf/vuepress-homepage" title="Homepage">
     <img src="https://user-images.githubusercontent.com/5097752/39163721-4c79012c-47ae-11e8-842b-2af72f69cc2c.jpg" width="300px" alt="">

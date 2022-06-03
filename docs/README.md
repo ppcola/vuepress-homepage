@@ -2,30 +2,30 @@
 pageClass: home-page
 # some data for the components
 
-name: Harry Potter
+name: 程 双喜
 profile: /profile.jpg
 
 socials:
   - title: github
     icon: "/icons/github.svg"
-    link: https://github.com/mtobeiyf
+    link: https://github.com/ppcola
   - title: linkedin
-    icon: "/icons/linkedin-mono.svg"
+    icon: "/icons/weixin.svg"
     link: https://www.linkedin.com
   - title: instagram
     icon: "/icons/instagram-mono.svg"
-    link: https://www.instagram.com
+    link: https://www.instagram.com/shuangxi5
 
 cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Student at Hogwarts School
-email: harry (at) hogwarts (dot) edu
+bio: 毕业于河南工学院
+email: Mr.Shuangxi@gmail.com
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-## About Me
+## 关于
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
+我毕业于[Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
 
 I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
 
