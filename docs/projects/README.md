@@ -4,23 +4,23 @@ pageClass: projects-page
 
 # Work
 
-Here are some works of mine :books:
+这里是一些我做过的项目 :books:
 
-## Projects
+## 项目
 
 <ProjectCard image="/projects/1.png">
 
   Harry P., Hermione G., *et al*
   
-  **The Making of Harry Potter's Wand**
+  **基于NEAT的无人驾驶仿真系统**
   
   Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
   
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
+  [[源码](https://www.google.com)] [[详细内容](https://arxiv.org)]
 
 </ProjectCard>
 
-## Publications
+## 传智书城
 
 <ProjectCard>
 
