@@ -2,7 +2,7 @@
 pageClass: projects-page
 ---
 
-# Work
+# Projects
 
 这里是一些我做过的项目 :books:
 

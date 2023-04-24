@@ -21,7 +21,7 @@ export default {
 .md-card
   background-color $frontColor
   margin-top 1em
-  min-height 150px
+  min-height 160px
   display flex
   flex-direction row
   align-items: stretch
@@ -30,9 +30,9 @@ export default {
     align-items center
     padding 0.5rem
     img 
-      max-width 150px
+      max-width 180px
       max-height 150px
-      height 150px
+      height 170px
       border: 1px solid #eee;
       border-radius 0.2rem
       object-fit cover
@@ -64,6 +64,8 @@ export default {
       align-items: stretch
       img 
         width 100%
+        height 100%
+        max-height 400px
         max-width 400px
     .card-content
       pre

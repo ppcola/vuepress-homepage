@@ -9,14 +9,14 @@ socials:
   - title: github
     icon: "/icons/github.svg"
     link: https://github.com/ppcola
-  - title: linkedin
+  - title: weixin
     icon: "/icons/weixin.svg"
-    link: https://www.linkedin.com
+    link: /about/weixin.html
   - title: instagram
     icon: "/icons/instagram-mono.svg"
     link: https://www.instagram.com/shuangxi5
 
-cv: https://en.wikipedia.org/wiki/Harry_Potter
+cv: /resume.pdf
 bio: 毕业于河南工学院
 email: Mr.Shuangxi@gmail.com
 ---
@@ -25,39 +25,40 @@ email: Mr.Shuangxi@gmail.com
 
 ## 关于
 
-我毕业于[Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
+你好！我是双喜，2022年毕业于[河南工学院](https://baike.baidu.com/item/%E6%B2%B3%E5%8D%97%E5%B7%A5%E5%AD%A6%E9%99%A2/9750218) 计算机科学与技术学院软件工程专业, 📍目前在 **郑州**。
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+热衷于Java学习和在Linux平台下进行程序开发，着迷于好看的前端网页设计，Java的全平台兼容很打动我，于是决心投身于Java编程事业。对Nintendo Switch游戏机有着浓厚的兴趣，在生活中是一个待人真诚，善于合作，富有激情的人，喜欢用相机记录生活，虽然拍照水平低，但积极性很高。 :dizzy:
 
 
 ## News
-
-- [Sept 1991] Attended Hogwarts
-- [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
-
-
-## Education & Experiences
-
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
-Sept 1991 - 1997
+- [现在] 正在找工作
+- [2022年5月17]  完成线上答辩
 
 
-## Projects
+## 教育 与 经历
+
+- **河南工学院** <br/>
+软件工程专业 2018 - 2022
 
 
-[→ Full list](/projects/)
+## 项目
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
 
-  **The Making of Harry Potter's Wand**
+[→ 查看全部](/projects/)
 
-  Harry P., Hermione G., *et al*
+<ProjectCard image="/projects/2.png" hideBorder=true>
+
+  **传智书城图书管理系统**
+
+  2022年03-2022年05
   
-  Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
+  我完成的部分是利用servlet实现注册登录。运用了MVC三层架构设计，提高代码的重复利用，降低耦合度。技术上的难点是使用GET请求传递参数后台接收到的是乱码，要改变编码方式才能正确显示内容。运行效果达到预期能够限制恶意请求，减少服务器的压力。
   
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
+  [[源码](https://github.com/ppcola/bookstore)] [[详细内容](/guide/advanced.html)]
 
 </ProjectCard>
+
+
 
 <ProjectCard hideBorder=true>
 
@@ -70,16 +71,19 @@ Sept 1991 - 1997
 </ProjectCard>
 
 
-## Awards & Honors
+## 奖项 & 荣誉
 
-### Contests
+### 证书
 
-- First place in **The Hogwarts House Cup**
+-  **普通话证书** 二级乙等
+-  **CET-4**  成绩单  407分
 
 
 <!-- Custom style for this page -->
 
 <style lang="stylus">
+
+  
 
 .theme-container.home-page .page
   font-size 14px
@@ -103,10 +107,10 @@ Sept 1991 - 1997
     .card-image
       padding 0.2rem
       img
-        max-width 120px
-        max-height 120px
+        max-width 150px
+        max-height 150px
     .card-content p
-      -webkit-margin-after 0.2em
+      -webkit-margin-after 0.3em
 
 @media (max-width: 419px)
   .theme-container.home-page .page
@@ -116,7 +120,7 @@ Sept 1991 - 1997
     .md-card
       .card-image
         img 
-          width 100%
+          width 78%
           max-width 400px
 
 </style>
