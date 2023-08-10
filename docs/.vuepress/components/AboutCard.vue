@@ -42,9 +42,9 @@
       </div>
     </div>
 
-    <!-- <div class="footer" v-if="data.footer">
+    <div class="footer" v-if="data.footer">
       {{ data.footer }}
-    </div> -->
+    </div>
   </div>
 </template>
 

@@ -8,15 +8,17 @@ module.exports = {
     dest: "./dist",
 
     themeConfig: {
-        search: false,
+        search: true,
         nav: [
             { text: "主页", link: "/" },
             { text: "关于", link: "/about/" },
-            { text: "项目", link: "/projects/" },
-            { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
+            { text: "项目", link: "/projects/" }
         ],
         sidebar: {
-            '/guide/': genSidebarConfig('Guide')
+            '/guide/': genSidebarConfig('Guide'),
+            '/projects/item/': [
+                'zhy',
+            ]
         },
         lastUpdated: 'Last Updated'
     },
@@ -42,3 +44,13 @@ function genSidebarConfig(title) {
         ]
     }]
 }
+
+// function genSidebarConfig1(title) {
+//     return [{
+//         title,
+//         collapsable: false,
+//         children: [
+//             'advanced',
+//         ]
+//     }]
+// }
